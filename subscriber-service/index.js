@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 const app = express();
-const PORT = 5001;
+const PORT = 5400;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -18,5 +18,5 @@ nrp.on("NEW_ORDER", (data) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`server running at http://localhost:${PORT}`);
+  console.log(`subscriber server running at http://localhost:${PORT}`);
 });
