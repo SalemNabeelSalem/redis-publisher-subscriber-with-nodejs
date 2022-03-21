@@ -1,15 +1,15 @@
 {
-  "name": "payment-service",
+  "name": "subscriber-service",
   "version": "1.0.0",
-  "description": "",
+  "description": "subscriber-service",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Salem Nabeel <isalemnabeelsalem@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "node-redis-pubsub": "^5.0.0"
